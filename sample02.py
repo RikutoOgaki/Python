@@ -1,12 +1,24 @@
-# 初めてのスクレイピング
-import requests
-from bs4 import BeautifulSoup
+# 四則演算
 
+# 足し算
+print(10 + 2)
 
-url = "https://www.yahoo.co.jp/"
-response = requests.get(url)
-html = response.text
+# 引き算
+print(12-10)
 
-data =  BeautifulSoup(html , "html.parser")
+# 掛け算
+print(22 * 15)
 
-print(data)
+# 割り算
+print(99 / 9)
+
+# pythonでよく使う計算記号
+
+# 割ったあまり計算
+print(10 % 3)
+
+# 割った結果の整数部分のみを計算
+print(10 // 2)
+
+# 累乗計算
+print(3**10)
